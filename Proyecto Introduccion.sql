@@ -32,7 +32,7 @@ create table Prestamos_Bibliotecarios
 	FOREIGN KEY (EstudianteID) REFERENCES Estudiantes(EstudianteID)
 );
 
-INSERT INTO Libros (Titulo, Autor, Editorial, Stock) VALUES ('Matematicas', 'Baldor', 'susaeta', 50);
+INSERT INTO Libros (Titulo, Autor, Editorial, Precio, Stock) VALUES ('Matematicas', 'Baldor', 'susaeta', 100, 50);
 
 INSERT INTO Estudiantes(Primer_Nombre, Apellido, Carrera, Semestre) VALUES ('Juan', 'Juares', 'Medicina', 1);
 
