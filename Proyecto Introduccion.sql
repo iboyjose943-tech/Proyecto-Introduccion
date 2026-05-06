@@ -7,6 +7,7 @@ Create table Libros
 	Titulo VARCHAR(150),
 	Autor VARCHAR(100),
 	Editorial VARCHAR(5000),
+	Precio INT NOT NULL,
 	Stock INT NOT NULL
 );
 
